@@ -6,8 +6,10 @@
 		method: "get/post/put/delete",  
 		data: {},   //非get方法  
 		params: {}, //仅限get方法  
-	}).then( res => { //请求成功的回调  
-	}).catch( res => { //请求失败的回调  
+	}).then( res => {  
+		console.log('successful')  
+	}).catch( res => {  
+		console.log('error')
 	})
   
 ### 设置公共参数:
