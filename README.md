@@ -1,6 +1,6 @@
 # fetch
 咸鱼康基于原生fetch的一点小小的封装
-使用方法:
+# 使用方法:
   fetch({
     url:"",
     method:"get/post/put/delete",
@@ -10,6 +10,6 @@
   }).catch(res => { //请求失败的回调
   })
   
-设置公共参数:
+# 设置公共参数:
   fetch.setUrlHeader('https://www.52xx.site') //设置默认域名
   fetch.setHeaders(json)  //设置头部信息
